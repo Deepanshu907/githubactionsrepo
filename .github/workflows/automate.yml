@@ -10,7 +10,7 @@ on:
   pull_request:
     branches: [ "master" ]
 
- jobs:
+jobs:  # <-- FIXED: no space before "jobs"
   build:
     runs-on: ubuntu-latest
 
